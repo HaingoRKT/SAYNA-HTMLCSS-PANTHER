@@ -1,0 +1,73 @@
+/* LEs footers */
+.pre-footer {
+    height: 15vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+
+.pre-circle {
+    background: #021740;
+    border: #021740 5px;
+    border-radius: 50%;
+    left: 80vw;
+    width: 12vh;
+    height: 12vh;
+}
+
+footer {
+    background-image: url("Illustrations + Logo/All pages/back_footer.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marvel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-dh,
+.footer-db ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-db {
+    left: 10px;
+}
+
+.footer-db li {
+    list-style: disc;
+}
+
+.footer-db ul {
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-droit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.circle-inside {
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+footer section {
+    padding: 30px;
+}

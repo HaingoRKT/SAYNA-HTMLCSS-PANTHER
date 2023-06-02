@@ -1,0 +1,383 @@
+@font-face {
+    font-family: 'BEYNO';
+    src: url(font/BEYNO.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(font/PantheraRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Cantarell-regular';
+    src: url(font/Cantarell-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'wakandaForever';
+    src: url(font/WakandaForever-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Cantarell-Bold';
+    src: url(font/Cantarell-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Cantarell-italic';
+    src: url(font/Cantarell-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Cantarell-bolditalic';
+    src: url(font/Cantarell-BoldItalic.ttf) format("truetype");
+}
+
+
+body {
+    background-image: url(Illustrations-Logo/All-pages/arrière_plan.png);
+}
+
+header {
+    color: white;
+}
+.sayna{
+    position: absolute;
+    left: 100px;
+}
+ul li {
+    font-family: 'BEYNO';
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    gap: 60px;
+    padding-right:100px;
+}
+/* Les codes suivants concernent les logos */
+.ensemble {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.ensemble img {
+    height: 12px;
+    width: 12px;
+}
+.barrep {
+    border-left: 2px #9E91B7  solid;
+    height: 36vh;
+    margin-left: 28px;
+}
+.barrel {
+border-right:2px #9E91B7  solid;
+height: 50vh;
+position: absolute;
+left: 17.5px;
+}
+.barres {
+    position: fixed;
+}
+/* dossier qui represente l'hero */
+.hero-container { 
+    padding: 150px;
+    width: 40vw; 
+}
+ h1, h2 {
+    color: #9E91B7;
+}
+p, a {
+    color: white; 
+    font-family: 'Cantarell-regular';
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Panthera';
+}
+h2 {
+    font-size: 30px;
+    font-family: 'BEYNO';
+}
+p {
+    width: 35vw;
+    font-size: 14px;
+    font-family: 'Cantarell-regular';
+}
+.heroimage img {
+    width:60vw;
+   
+}
+.heroimage {
+    position: absolute;
+    left: 38vw;
+    top: 15vh;
+}
+
+/* Images deroulantes */
+.imagederoul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #021740;
+    height: 40vh;
+    max-width: 100vw;
+}
+.imagederoul img {
+    height: 100%;
+    width: auto;
+}
+
+/* .sasoeur {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-content: center;
+
+} */
+
+.sasoeur img{
+    height: 100%;
+position: absolute;
+}
+.fleche {
+    border-radius: 50%;
+    background-color: #021740;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-style: bold;
+    float: center;
+}
+
+/* Hafa */
+.side p {
+    font-size: 16px;
+}
+
+.side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    float: right;
+}
+
+.side-info {
+    background-color: #ffffffe0;
+    color: #021740;
+    width: 30vw;
+    height: 80vh;
+    border: #ffffffe0 1px outset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 25vh;
+}
+
+.side-content {
+    position: relative;
+    margin: 8%;
+    padding-top: 50%;
+}
+
+.tete {
+    position: absolute;
+    width: 25vw;
+    top: 0;
+}
+.side h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.side ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side li {
+    padding: 5px 15px;
+    background-color: #3d2da6;
+    border: #3d2da6 solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Styles pour les article gauche */
+#articles {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    position: relative;
+    float: left;
+    left: 10vw;
+}
+
+/* Styles pour les formulaires */
+.formulaire img {
+    width: 100%;
+    position: relative;
+}
+
+form {
+    margin: 0 30%;
+    display: flex;
+}
+
+.formulaire {
+    display: inline-flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+}
+
+.contacter {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    margin-bottom: 10%;
+    width: 52vw;
+    height: 32vw;
+    border: solid 0px ;
+    border-radius: 130px;
+    -ms-border-radius: 130px;
+    -o-border-radius: 130px;
+    -webkit-border-radius: 130px;
+    -moz-border-radius: 130px;
+    background-image: linear-gradient(white , white, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form p, form h3 {
+    margin: 0;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+form, form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    color: #021740;
+}
+
+form input, textarea {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: none;
+    border: #021740 1px solid;
+    padding-left: 5%;    gap: 10%;
+} 
+
+input[type="email"], input[type="text"]  {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 200px;
+    height: 100px;
+    max-height: 120px;
+    min-height: 60px;
+}
+
+/* les footers*/
+
+.pre-footer {
+    height: 15vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+
+.pre-circle {
+    background: #021740;
+    border: #021740 5px;
+    border-radius: 50%;
+    left: 80vw;
+    width: 12vh;
+    height: 12vh;
+}
+
+footer {
+    background-image: url("Illustrations + Logo/All pages/back_footer.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marvel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-dh,
+.footer-db ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-db {
+    left: 10px;
+}
+
+.footer-db li {
+    list-style: disc;
+}
+
+.footer-db ul {
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-droit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.circle-inside {
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+footer section {
+    padding: 30px;
+}
